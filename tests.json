@@ -1,0 +1,22 @@
+[
+    {
+        "input": "Wlazł kotek na płotek i mruga. Ładna to piosenka, niedługa. Niedługa, niekrótka lecz w sam raz, zaśpiewaj koteczku jeszcze raz.",
+        "output": "Wlazł, kotek, na, płotek, i\nmruga, Ładna, to, piosenka, niedługa\nNiedługa, niekrótka, lecz, w, sam\nraz, zaśpiewaj, koteczku, jeszcze, raz"
+    },
+    {
+        "input": "",
+        "output": ""
+    },
+    {
+        "input": " Raz dwa trzy cztery pięć",
+        "output": "Raz, dwa, trzy, cztery, pięć"
+    },
+    {
+        "input": "Here",
+        "output": "Here"
+    },
+    {
+        "input": "A czy wejście\nmoże być w dwóch linijkach?",
+        "output": "A, czy, wejście, może, być\nw, dwóch, linijkach"
+    }
+]
