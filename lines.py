@@ -10,12 +10,5 @@
 # raz, zaśpiewaj, koteczku, jeszcze, raz
 
 
-def parse(input):
-    res = []
-    N = 5
-    strip_s = ''.join(filter(lambda x: str.isalnum(x) or x == ' ' or x == '\n', input.strip()))
-    # strip_s = input
-    words = strip_s.split()
-    for i in range(0, len(words), N):
-        res.append(', '.join(words[i:i+N]))
-    return '\n'.join(res)
+def parse(input) -> str:
+    pass

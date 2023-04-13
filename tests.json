@@ -1,5 +1,13 @@
 [
     {
+        "input": "Wplynalem na suchego przestwor oceanu woz nurza sie w zielonosc",
+        "output": "Wplynalem, na, suchego, przestwor, oceanu\nwoz, nurza, sie, w, zielonosc" 
+    },
+    {
+        "input": "Lorem ipsum dolor sit amet consectetur adipiscing",
+        "output": "Lorem, ipsum, dolor, sit, amet\nconsectetur, adipiscing"
+    },
+    {
         "input": "Wlazł kotek na płotek i mruga. Ładna to piosenka, niedługa. Niedługa, niekrótka lecz w sam raz, zaśpiewaj koteczku jeszcze raz.",
         "output": "Wlazł, kotek, na, płotek, i\nmruga, Ładna, to, piosenka, niedługa\nNiedługa, niekrótka, lecz, w, sam\nraz, zaśpiewaj, koteczku, jeszcze, raz"
     },
@@ -18,5 +26,17 @@
     {
         "input": "A czy wejście\nmoże być w dwóch linijkach?",
         "output": "A, czy, wejście, może, być\nw, dwóch, linijkach"
+    },
+    {
+        "input": "If you're happy and you know it clap your hands!",
+        "output": "If, you're, happy, and, you\nknow, it, clap, your, hands"
+    },
+    {
+        "input": "one two",
+        "output": "one, two"
+    },
+    {
+        "input": "pięć słów w jednym wersie",
+        "output": "pięć, słów, w, jednym, wersie"
     }
 ]
