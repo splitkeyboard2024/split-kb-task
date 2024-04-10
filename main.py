@@ -29,7 +29,6 @@ with open(FILE_NAME) as tests_file:
             test['parsed'] = parsed
             bad.append(test)
     
-    print(f'{bcolors.BOLD}FINAL SCORE: {scored}/{max_score}.')
     print(f'{bcolors.ENDC}#'*80)
     for test in bad:
         input = test['input']
@@ -37,4 +36,5 @@ with open(FILE_NAME) as tests_file:
         parsed = test['parsed']
         print(f'{bcolors.BOLD}For input:\n{bcolors.ENDC}{input}\n{bcolors.BOLD}The expected output is:\n{bcolors.ENDC}{output}\n{bcolors.BOLD}Received output is:\n{bcolors.ENDC}{parsed}')
         print('_'*80)
+    print(f'{bcolors.BOLD}FINAL SCORE: {scored}/{max_score}.')
 

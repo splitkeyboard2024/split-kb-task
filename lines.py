@@ -1,13 +1,17 @@
 # Napisz funkcję, która wypisuje tekst (podany jako argument) oddzielając każde słowo przecinkiem i wypisując maksymalnie 5 słów w rzędzie.
-#
+# UWAGA! Przypadki testowe mogą zawierać znaki ?!, znaki nowej linii \n i spacje na początku i końcu tekstu.
 
-# Input:
-# Wlazł kotek na płotek i mruga. Ładna to piosenka, niedługa. Niedługa, niekrótka lecz w sam raz, zaśpiewaj koteczku jeszcze raz.
+# Input example 1:
+# Wlazł kotek na płotek i mruga. Ładna to piosenka, niedługa
 # Output:
 # Wlazł, kotek, na, płotek, i
 # mruga, Ładna, to, piosenka, niedługa
-# Niedługa, niekrótka, lecz, w, sam
-# raz, zaśpiewaj, koteczku, jeszcze, raz
+
+# Input example 2:
+# To be, or not to be?\nThat is the question!
+# Output:
+# To, be, or, not, to
+# be, That, is, the, question
 
 
 def parse(input) -> str:
